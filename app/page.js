@@ -8,7 +8,7 @@ import Kira from './images/image-kira.jpg'
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center gap-8 bg-light-grayish px-5 py-14 duration-300 sm:px-32 xl:grid xl:grid-flow-row xl:grid-cols-4 xl:grid-rows-2 xl:p-24">
+    <main className="flex h-min flex-col items-center gap-8 px-5 py-14 duration-300 sm:px-32 xl:grid xl:grid-flow-row xl:grid-cols-4 xl:grid-rows-2 xl:p-36">
       <ArticleCard
         breakpoints="xl:col-span-2"
         icon
@@ -58,7 +58,7 @@ export default function Home() {
         paragraph="The staff seem genuinely concerned about my progress which I find really refreshing. The program gave me the confidence necessary to be able to go out in the world and present myself as a capable junior developer. The standard is above the rest. You will get the personal attention you need from an incredible community of smart and amazing people."
       />
       <ArticleCard
-        breakpoints="xl:col-end-5 xl:row-span-full"
+        breakpoints="xl:col-end-5 xl:row-span-full xl:h-full"
         cardColor="bg-white"
         photo={Kira}
         name="Kira Whittle"
